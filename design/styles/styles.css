@@ -1,0 +1,123 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+input {
+  font-size: 15px;
+  padding: 10px;
+  outline: 0;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.header {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.header h1, h2 {
+  display: inline-block;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header h2 {
+  color: #999;
+  margin-left: 10px;
+}
+
+.header .stats {
+  margin-top: 10px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.search {
+  margin-bottom: 30px;
+}
+
+.search input {
+  width: 100%;
+}
+
+.search input:focus ~ .instructions {
+  display: block;
+}
+
+.search .instructions {
+  margin-top: 10px;
+  color: #555;
+  font-size: 12px;
+  background: #baf785;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+.search .instructions .pointer {
+  margin-top: -14px;
+  margin-left: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7px 14px 7px;
+  border-color: transparent transparent #baf785 transparent;
+}
+
+.popular {
+}
+
+.popular h1 {
+  font-size: 22px;
+  margin: 0 0 15px 0;
+}
+
+.starter-list {
+
+}
+
+.starter-box {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 18px;
+  vertical-align: top;
+  cursor: pointer;
+  position: relative;
+}
+
+.starter-box:hover {
+  background: #e2ffc9;
+}
+
+.starter-box .stats {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.starter-box .stats .rating {
+  margin-bottom: 5px;
+}
+
+.starter-box .stats .stat {
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.starter-box .stats .stat .icon {
+  width: 12px;
+  height: 12px;
+  margin: 0 3px 0 3px;
+  vertical-align: middle;
+}
